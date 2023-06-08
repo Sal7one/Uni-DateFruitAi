@@ -1,0 +1,36 @@
+name: datefruitnew
+description: Date fruit types
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  lottie: ^2.4.0
+  flutter_riverpod: ^2.3.6
+  shared_preferences: ^2.1.1
+  fluttericon: ^2.0.0
+  flutter_tflite: ^1.0.1
+  camera: ^0.10.5+2
+  url_launcher: ^6.1.11
+  image_picker: ^0.8.7+5
+  screenshot: ^2.1.0
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/datefruit.tflite
+    - assets/datefruit.txt
+    - assets/loading.json
